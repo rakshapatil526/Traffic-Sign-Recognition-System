@@ -1,0 +1,13 @@
+@'
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.log
+'@ | Set-Content -Encoding utf8 .gitignore
